@@ -4,3 +4,7 @@ Regex for Various tasks
 # selects all digits
 
 2. Remove duplicate lines = ^(.*?)$\s+?^(?=.*^\1$)
+# Remove duplicacte lines from a text document
+
+3. Replace new line characters with some other characters = [\r\n]+
+#Good for creating lists of values with double commas
