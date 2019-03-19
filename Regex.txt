@@ -1,0 +1,6 @@
+Regex for Various tasks
+
+1. find digits in a text = [0-9]+
+# selects all digits
+
+2. Remove duplicate lines = ^(.*?)$\s+?^(?=.*^\1$)
